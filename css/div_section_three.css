@@ -1,0 +1,5 @@
+.div_section_three{
+    grid-row: 3;
+    min-height: 400px;
+    background-color: rgb(198, 153, 161);
+}

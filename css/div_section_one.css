@@ -1,0 +1,5 @@
+.div_section_one{
+    grid-row: 1;
+    min-height: 400px;
+    background-color: lightpink;
+}

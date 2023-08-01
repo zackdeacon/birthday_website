@@ -1,0 +1,5 @@
+.div_section_two{
+    grid-row: 2;
+    min-height: 400px;
+    background-color: pink;
+}
