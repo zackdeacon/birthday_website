@@ -1,13 +1,13 @@
 .header_class{
     min-height: 450px;
-    background-color: #E15A97;
+    background-color: none;
 }
 
 .header_h3{
     display: flex;
     justify-content: center;
     align-self: start;
-    color: #EEEBD3;
+    color: #3AB795;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 5vw;
     margin-top: 0;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-self:center;
-    color: #EEEBD3;
+    color: #3AB795;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 3vw;
     margin-top: .15em;
@@ -29,11 +29,11 @@
     display: flex;
     justify-content: center;
     align-self:flex-end;
-    color: #3AB795;
-    text-shadow: -3px -3px 0 #393D3F, 3px -3px 0 #393D3F, -3px 3px 0 #393D3F, 3px 3px 0 #393D3F;
+    color: #E15A97;
+    text-shadow: -3px -3px 0 #3AB795, 3px -3px 0 #3AB795, -3px 3px 0 #3AB795, 3px 3px 0 #3AB795;
     font-family: 'Kalam', cursive;
     font-size: 10vw;
-    margin-top: .15em;
+    margin-top: 0em;
     margin-bottom: 0;
 }
 
@@ -42,14 +42,14 @@
 
     .header_class{
         min-height: 200px;
-        background-color: #E15A97;
+        background-color: none;
     }
     
     .header_h3{
         display: flex;
         justify-content: center;
         align-self: start;
-        color: #EEEBD3;
+        color: #3AB795;
         font-family: 'Nunito Sans', sans-serif;
         font-size: 5vh;
         margin-top: 0;
@@ -60,19 +60,21 @@
         display: flex;
         justify-content: center;
         align-self:center;
-        color: #EEEBD3;
+        color: #3AB795;
         font-family: 'Nunito Sans', sans-serif;
         font-size: 3vh;
         margin-top: .15em;
         margin-bottom: 0em;
     }
+
+    /* #E15A97 */
     
     .header_h1{
         display: flex;
         justify-content: center;
         align-self:flex-end;
-        color: #3AB795;
-        text-shadow: -3px -3px 0 #393D3F, 3px -3px 0 #393D3F, -3px 3px 0 #393D3F, 3px 3px 0 #393D3F;
+        color: #E15A97;
+        text-shadow: -3px -3px 0 #3AB795, 3px -3px 0 #3AB795, -3px 3px 0 #3AB795, 3px 3px 0 #3AB795;
         font-family: 'Kalam', cursive;
         font-size: 10vh;
         margin-top: 0em;

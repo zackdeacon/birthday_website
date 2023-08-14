@@ -1,7 +1,8 @@
 .div_section_two{
+    margin-top: 50px;
     grid-row: 2;
     min-height: 500px;
-    background-color: #EEABC4;
+    background-color: #eeabc3d1;
     display: grid;
     grid-template-columns: 40% 60%;
 }
@@ -44,25 +45,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 1em;
 }
 
 .friday_h1{
-    font-size: 3vw;
+    font-size: 4vw;
     /* color: #EEEBD3; */
     color: #3AB795;
+    text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
+    font-family: 'Kalam', cursive;
     text-decoration: underline;
+    margin-top: 1em;
 }
 
 .description{
-    grid-column: 1;
+    grid-column: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .row_icon{
-    grid-column: 2;
+    grid-column: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +96,10 @@
 }
 
 .onset_p_tag{
-    font-size: 2vw;
+    font-size: 3vw;
+    font-family: 'Kalam', cursive;
+    color: #EEEBD3;
+    text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
 }
 
 .offeset_p_tag{
@@ -104,7 +111,11 @@
 }
 
 .day_pic_class{
-
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: bottom right; */
+    border-radius: 10px;
 }
 
 .mobile-header{
@@ -118,7 +129,7 @@
     .div_section_two{
         grid-row: 2;
         min-height: 500px;
-        background-color: #EEABC4;
+        background-color: #eeabc3d1;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 10 40% 50%;
@@ -170,8 +181,9 @@
     .friday_h1{
         /* display: none; */
         font-size: 3vh;
-        /* color: #EEEBD3; */
         color: #3AB795;
+        text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
+        font-family: 'Kalam', cursive;
         text-decoration: underline;
     }
     
@@ -225,7 +237,10 @@
     }
     
     .day_pic_class{
-    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom right;
     }
 
     .mobile-header{

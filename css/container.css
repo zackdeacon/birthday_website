@@ -7,3 +7,9 @@ body{
     min-height: 1600px;
     grid-template-rows: auto auto auto auto;
 }
+
+.parallaxClass {
+    background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}

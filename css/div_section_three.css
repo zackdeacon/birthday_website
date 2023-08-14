@@ -1,7 +1,8 @@
 .div_section_three{
+    margin-top: 50px;
     grid-row: 3;
     min-height: 500px;
-    background-color: #EEABC4;
+    background-color: #eeabc3d1;
     display: grid;
     grid-template-columns: 60% 40%;
 }
@@ -12,7 +13,7 @@
     .div_section_three{
         grid-row: 3;
         min-height: 500px;
-        background-color: #EEABC4;
+        background-color: #eeabc3d1;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 10 40% 50%;
