@@ -18,21 +18,22 @@ body{
   @media screen and (max-width: 767px) {
 
     .parallaxClass::before {
-        /* background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
+        background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
         background-size: cover;
-        background-attachment: fixed; */
-        position:fixed;
+        background-attachment: fixed;
+        /* position:fixed;
         width:100%;
         height:100%;
         left:0;
         top:0;
-        background:url('../Assets/MIAMI_SKYLINE.jpg');
+        background:url('../Assets/MIAMI_SKYLINE.jpg'); */
     }
 
     .container{
         display: grid;
         min-height: 1600px;
         grid-template-rows: auto auto auto auto;
+        z-index: 2;
     }
 
   }

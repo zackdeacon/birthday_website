@@ -241,6 +241,12 @@
         justify-content: center;
         align-items: center;
     }
+
+    .cover{
+        grid-column: 3;
+        z-index: 3;
+        background-color: #eeabc206;
+    }
     
     .row_icon_offset{
         grid-row: 1;

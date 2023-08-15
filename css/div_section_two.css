@@ -221,6 +221,12 @@
     .offeset_p_tag{
         font-size: 2vw;
     }
+
+    .cover{
+        grid-column: 3;
+        z-index: 3;
+        background-color: #eeabc206;
+    }
     
     .icon_class{
         
