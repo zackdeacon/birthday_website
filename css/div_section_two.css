@@ -168,11 +168,13 @@
     
     .friday_h1{
         /* display: none; */
-        font-size: 3vh;
+        font-size: 4.5vh;
         color: #3AB795;
         text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
         font-family: 'Kalam', cursive;
         text-decoration: underline;
+        margin-top: 0;
+        margin: .1em;
     }
     
     .description{
@@ -211,8 +213,9 @@
     }
     
     .onset_p_tag{
-        font-size: 2.2vh;
+        font-size: 2.5vh;
         text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
+        white-space: nowrap;
     }
     
     .offeset_p_tag{
