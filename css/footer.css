@@ -1,5 +1,5 @@
 .footer{
     grid-row: 4;
     min-height: 100px;
-    background-color: aliceblue;
+    background-color: none;
 }

@@ -9,7 +9,7 @@
 .friday_text{
     grid-column: 1;
     display: grid;
-    grid-template-rows: 10% 30% 30% 30%;
+    grid-template-rows: 20% 80%;
 }
 
 .friday_header{
@@ -22,16 +22,8 @@
 .friday_one{
     display: grid;
     grid-row: 2;
-    grid-template-columns: 5% 25% 40% 25% 5%;
-    margin-top: 3.5em;
-}
+    margin-top: 2em;
 
-.friday_two{
-    display: grid;
-    grid-row: 3;
-    grid-template-rows: 100%;
-    grid-template-columns: 5% 25% 40% 25% 5%;
-    /* margin-top: 1.5rem; */
 }
 
 .third_column{
@@ -39,13 +31,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.friday_three{
-    display: grid;
-    grid-row: 4;
-    grid-template-columns: 5% 25% 40% 25% 5%;
-    /* margin-top: 1.5rem; */
 }
 
 .friday_pic_holder{
@@ -68,9 +53,6 @@
 
 .description{
     grid-column: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .row_icon{
@@ -80,12 +62,26 @@
     align-items: center;
 }
 
+.li_2{
+    margin-top: 1em !important;
+}
+
+.li_3{
+    margin-top: 1em !important;
+}
+
 .description_offset{
     grid-row: 1;
     grid-column: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cover{
+    grid-column: 3;
+    z-index: 2;
+    background-color: #eeabc206;
 }
 
 .row_icon_offset{
@@ -125,6 +121,8 @@
     color: #EEEBD3;
     text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
     margin: 0em;
+    /* border-bottom: 1.5px solid #3AB795; */
+    border-bottom: 1.5px solid #E15A97;
 }
 
 .offeset_p_tag{
@@ -184,7 +182,9 @@
         display: grid;
         grid-column: 1;
         grid-row: 1;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 15% 70% 15%;
+        margin-top: .5em;
+        margin-bottom: 1.5em;
     }
     
     .friday_two{
@@ -214,16 +214,15 @@
         /* display: none; */
         font-size: 3vh;
         color: #3AB795;
-        text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
+        text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
         font-family: 'Kalam', cursive;
         text-decoration: underline;
     }
     
     .description{
-        grid-column: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        grid-column: 2;
+        display: grid;
+        padding-left: 0;
     }
     
     .row_icon{
@@ -250,7 +249,8 @@
     }
     
     .onset_p_tag{
-        font-size: 2vw;
+        font-size: 2.2vh;
+        text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
     }
     
     .offeset_p_tag{
