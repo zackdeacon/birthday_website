@@ -6,6 +6,7 @@ body{
     display: grid;
     min-height: 1600px;
     grid-template-rows: auto auto auto auto;
+    position: relative;
 }
 
 .parallaxClass {
