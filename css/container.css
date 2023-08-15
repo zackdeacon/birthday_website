@@ -6,7 +6,6 @@ body{
     display: grid;
     min-height: 1600px;
     grid-template-rows: auto auto auto auto;
-    /* position: relative; */
 }
 
 .parallaxClass {
@@ -20,17 +19,14 @@ body{
 
     .parallaxClass {
         background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
-        width: 100%;
-        height: 100%;
         background-size: cover;
-        position: fixed;
+        background-attachment: fixed;
     }
 
     .container{
         display: grid;
         min-height: 1600px;
         grid-template-rows: auto auto auto auto;
-        position: relative;
     }
 
   }
