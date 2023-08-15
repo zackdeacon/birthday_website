@@ -17,10 +17,16 @@ body{
   /* Smartphone */
   @media screen and (max-width: 767px) {
 
-    .parallaxClass {
-        background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
+    .parallaxClass::before {
+        /* background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: fixed; */
+        position:fixed;
+        width:100%;
+        height:100%;
+        left:0;
+        top:0;
+        background:url('../Assets/MIAMI_SKYLINE.jpg');
     }
 
     .container{
