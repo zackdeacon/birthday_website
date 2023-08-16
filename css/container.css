@@ -44,7 +44,7 @@ body{
     div.parallax:after {
         background-image: url("../Assets/MIAMI_SKYLINE.jpg");
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
         position: -webkit-sticky;
         top: 0px;
