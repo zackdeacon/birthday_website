@@ -22,46 +22,27 @@ body{
     }
 
     body {
-        width: 100vw;
-        height: 100vh;
-        overflow-x: hidden;
-        overflow-y: auto;
-        perspective: 1px;
-        -webkit-perspective: 1px;
-        transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-    }
-
-    div.parallax{
-        width: 100vw;
-        height: 2150px;
-        position: relative;
-        transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-        background-attachment: none;
-    }
-
-    div.parallax:after {
-        background-image: url("../Assets/MIAMI_SKYLINE.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: -webkit-sticky;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        z-index: -1;
-        content: "";
-        transform: translateZ(-1px) scale(2);
-        -webkit-transform: translateZ(-1px) scale(2);
-    }
-
-    div.container {
         width: 100%;
-        background-color: none;
-        perspective: 2px;
-        -webkit-perspective: 2px;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        perspective: 1px;
+        perspective-origin: 0 0;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+    }
+
+   .parallax{
+    transform-style: preserve-3d;
+    background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat bottom;
+    background-size: none;
+    background-attachment: none;
+   }
+
+    .container {
+        position: -webkit-sticky;
+        transform-origin: 0 0;
+        transform: translateZ(-2px) scale(3);
     }
 
   }
