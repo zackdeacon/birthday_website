@@ -17,32 +17,12 @@ body{
   /* Smartphone */
   @media screen and (max-width: 767px) {
 
-    html{
-        overflow: hidden;
+    .parallax{
+        background: #b9e9f9;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: -1;
     }
 
-    body {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        perspective: 1px;
-        perspective-origin: 0 0;
-        transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-    }
-
-   .parallax{
-    transform-style: preserve-3d;
-    background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat bottom;
-    background-size: none;
-    background-attachment: none;
-   }
-
-    .container {
-        position: -webkit-sticky;
-        transform-origin: 0 0;
-        transform: translateZ(-2px) scale(3);
-    }
-
+  
   }

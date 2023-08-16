@@ -45,6 +45,8 @@
     .header_class{
         min-height: 200px;
         background-color: none;
+        background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
+        background-size: cover;
     }
     
     .header_h3{

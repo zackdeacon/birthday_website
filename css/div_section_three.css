@@ -17,6 +17,10 @@
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 10 40% 50%;
+        margin-top: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        border-radius: 10px;
     }
 
 }
