@@ -8,7 +8,7 @@ body{
     grid-template-rows: auto auto auto auto;
 }
 
-.parallaxClass {
+.parallax {
     background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat bottom;
     background-size: cover;
     background-attachment: fixed;
@@ -17,23 +17,50 @@ body{
   /* Smartphone */
   @media screen and (max-width: 767px) {
 
-    .parallaxClass::before {
-        background: url("../Assets/MIAMI_SKYLINE.jpg") no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        /* position:fixed;
-        width:100%;
-        height:100%;
-        left:0;
-        top:0;
-        background:url('../Assets/MIAMI_SKYLINE.jpg'); */
+    html{
+        overflow: hidden;
     }
 
-    .container{
-        display: grid;
-        min-height: 1600px;
-        grid-template-rows: auto auto auto auto;
-        z-index: 2;
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        perspective: 1px;
+        -webkit-perspective: 1px;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+    }
+
+    div.parallax{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+    }
+
+    div.parallax:after {
+        background-image: url("../Assets/MIAMI_SKYLINE.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+        content: "";
+        transform: translateZ(-1px) scale(2);
+        -webkit-transform: translateZ(-1px) scale(2);
+    }
+
+    div.container {
+        width: 100%;
+        background-color: none;
+        perspective: 2px;
+        -webkit-perspective: 2px;
     }
 
   }
