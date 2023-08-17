@@ -35,10 +35,11 @@
   .topnav a {
     display: block;
     float: right;
+    width: calc(100vw/3);
     /* color: #3AB795; */
     color: #393D3F;
     text-align: center;
-    padding: 12px 14px;
+    padding: 12px 0px 12px 0px;
     text-decoration: none;
     font-size: 5vw;
     font-family: 'Questrial', sans-serif;
