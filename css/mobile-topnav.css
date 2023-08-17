@@ -38,6 +38,7 @@
     width: calc(100vw/3);
     /* color: #3AB795; */
     color: #393D3F;
+    outline: none;
     text-align: center;
     padding: 12px 0px 12px 0px;
     text-decoration: none;
