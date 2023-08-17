@@ -7,8 +7,8 @@
   }
   
   .topnav a:hover {
-    background-color: #F1F2EE;
-    color: #435058;
+    /* background-color: #E15A97; */
+    color: #3AB795;
     font-family: 'Questrial', sans-serif;
   }
   
@@ -58,8 +58,8 @@
   }
 
   .topnav a:hover {
-    background-color: #E15A97;
-    color: #435058;
+    /* background-color: #E15A97; */
+    color: #3AB795;
     font-family: 'Questrial', sans-serif;
   }
   

@@ -30,7 +30,7 @@
     .footer-tag{
         font-size: 2vh;
         color: #EEEBD3;
-        text-shadow: -2px -2px 0 #E15A97, 2px -2px 0 #E15A97, -2px 2px 0 #E15A97, 2px 2px 0 #E15A97;
+        text-shadow: -.5px -.5px 0 #E15A97, .5px -.5px 0 #E15A97, -.5px .5px 0 #E15A97, .5px .5px 0 #E15A97;
     }
 
   }
