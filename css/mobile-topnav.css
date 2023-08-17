@@ -1,0 +1,77 @@
+.topnav {
+  display: none;
+  }
+  
+  .topnav a {
+    display: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #F1F2EE;
+    color: #435058;
+    font-family: 'Questrial', sans-serif;
+  }
+  
+  .topnav a.active {
+    /* background-color: #848c8ef8; */
+    color: #DCF763;
+    font-weight: 900;
+    font-family: 'Questrial', sans-serif;
+  }
+
+  /* Smartphone */
+@media screen and (max-width: 767px) {
+
+  .topnav {
+    display:block;
+    overflow: hidden;
+    background-color: #e15a9785;
+    height: 45px;
+    width: 100vw;
+    position: fixed; 
+    z-index: 11;
+  }
+
+  .topnav a {
+    display: block;
+    float: right;
+    /* color: #3AB795; */
+    color: #393D3F;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: 'Questrial', sans-serif;
+  }
+
+  .party_popper_container{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 4vw;
+  }
+
+  .party_popper_png{
+    max-height: 27px;
+  }
+
+  .topnav a:hover {
+    background-color: #E15A97;
+    color: #435058;
+    font-family: 'Questrial', sans-serif;
+  }
+  
+  .topnav a.active {
+    /* background-color: #848c8ef8; */
+    color: #3AB795;
+    font-weight: 900;
+    font-family: 'Questrial', sans-serif;
+  }
+
+}
+
+
+
+

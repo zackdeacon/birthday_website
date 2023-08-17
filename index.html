@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/div_section_two.css">
     <link rel="stylesheet" href="./css/div_section_three.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/mobile-menu.css">
+    <link rel="stylesheet" href="./css/mobile-topnav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam&display=swap" rel="stylesheet">
@@ -18,8 +20,17 @@
 </head>
 
 <body>
+    <div class="topnav">
+            <div class="party_popper_container">
+            <img class="party_popper_png" src="./Assets/party_popper.png" alt="party popper">
+            </div>
+            <a id="tutor-tab" href="#sunday">Sunday</a>
+            <a id="study-tab" href="#saturday">Saturday</a>
+            <a id="article-tab" href="#friday">Friday</a>
+    </div>    
+    
 <div class="parallax">
-    <div class="header_class">
+    <div class="header_class" id="friday">
         <!-- TODO animate via type affect and SVG drawing for Miami with underline using GIMP download -->
         <!-- TODO change the list <a> tags to <ul>, wrap in links and style per day -->
         <h3 class="header_h3">Sarah's Dirty 30</h3>
@@ -48,7 +59,7 @@
                 <a class="event_link" href="yelp.com" target="blank">
                     <li class="onset_p_tag li_2">Dinner: Yelp.com 7pm</li>
                 </a>
-                <a class="event_link" href="https://www.clubspace.com/" target="blank">
+                <a class="event_link" id="saturday" href="https://www.clubspace.com/" target="blank">
                     <li class="onset_p_tag li_3">Club: Clubspace 10pm</li>
                     </a>
                 </ul>
@@ -76,7 +87,7 @@
                 <a class="event_link" href="https://www.vistayachts.com/charter-route/" target="blank">
                     <li class="onset_p_tag li_2">Vista Yacht Party: 2pm - 6pm</li>
                 </a>
-                <a class="event_link" href="https://www.clubspace.com/" target="blank">
+                <a class="event_link" id="sunday" href="https://www.clubspace.com/" target="blank">
                     <li class="onset_p_tag li_3">Club: Clubspace 10pm</li>
                     </a>
                 </ul>
@@ -116,7 +127,7 @@
 
     </div>
     <div class="footer">
-
+        <p class="footer-tag">&copy ZD-Event-Services</p>
     </div>
 </div>
 </div>
