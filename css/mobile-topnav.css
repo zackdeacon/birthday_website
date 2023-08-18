@@ -18,6 +18,7 @@
     width: 100vw;
     position: fixed; 
     z-index: 11;
+    top: 0;
   }
 
   .topnav a {
@@ -58,6 +59,21 @@
 
   .inView {
     color: #3AB795;
+  }
+
+  #sunday{
+    border: none;
+    outline: none;
+  }
+
+  #saturday{
+    border: none;
+    outline: none;
+  }
+
+  #friday{
+    border: none;
+    outline: none;
   }
   
   /* .topnav a.active {
