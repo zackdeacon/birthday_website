@@ -5,6 +5,26 @@
   .topnav a {
     display: none;
   }
+
+  #sunday{
+    border: none;
+    outline: none;
+  }
+
+  #saturday{
+    border: none;
+    outline: none;
+  }
+
+  #friday{
+    border: none;
+    outline: none;
+  }
+  
+  #photos{
+    border: none;
+    outline: none;
+  }
   
 
   /* Smartphone */
@@ -24,7 +44,7 @@
   .topnav a {
     display: block;
     float: right;
-    width: calc(100vw/3);
+    width: calc(100vw/4);
     /* color: #3AB795; */
     /* color: #393D3F; */
     outline: none;
@@ -76,6 +96,10 @@
     outline: none;
   }
   
+  #photos{
+    border: none;
+    outline: none;
+  }
   /* .topnav a.active {
     color: #3AB795;
     font-weight: 900;

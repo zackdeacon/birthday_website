@@ -4,8 +4,8 @@ body{
 
 .container{
     display: grid;
-    min-height: 1600px;
-    grid-template-rows: auto auto auto auto;
+    min-height: 1950px;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 .parallax {

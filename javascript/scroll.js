@@ -18,6 +18,9 @@ $(window).scroll(function() {
             $('#friday-tab').addClass('inView');
             $('#sunday-tab').addClass('backToNorm');
             $('#saturday-tab').addClass('backToNorm');
+            $('#photos-tab').removeClass('inView');
+            $('#photos-tab').addClass('backToNorm');
+
         }
 
         if (scrollDistance > 580 && scrollDistance < 1050) {
@@ -27,15 +30,30 @@ $(window).scroll(function() {
             $('#saturday-tab').addClass('inView');
             $('#sunday-tab').addClass('backToNorm');
             $('#friday-tab').addClass('backToNorm');
+            $('#photos-tab').removeClass('inView');
+            $('#photos-tab').addClass('backToNorm');
+
         }
 
-        if (scrollDistance > 1050) {
-            console.log("sunday!");
+        if (scrollDistance > 1050 && scrollDistance < 1490) {
             $('#friday-tab').removeClass('inView');
             $('#saturday-tab').removeClass('inView');
             $('#sunday-tab').removeClass('backToNorm');
             $('#sunday-tab').addClass('inView');
             $('#friday-tab').addClass('backToNorm');
             $('#saturday-tab').addClass('backToNorm');
+            $('#photos-tab').removeClass('inView');
+            $('#photos-tab').addClass('backToNorm');
+        }
+
+        if (scrollDistance > 1490) {
+            $('#friday-tab').removeClass('inView');
+            $('#saturday-tab').removeClass('inView');
+            $('#sunday-tab').removeClass('inView');
+            $('#photos-tab').removeClass('backToNorm');
+            $('#sunday-tab').addClass('backToNorm');
+            $('#friday-tab').addClass('backToNorm');
+            $('#saturday-tab').addClass('backToNorm');
+            $('#photos-tab').addClass('inView');
         }
   }).scroll();

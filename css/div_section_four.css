@@ -1,0 +1,71 @@
+.div_section_four{
+    margin-top: 50px;
+    grid-row: 4;
+    min-height: 350px;
+    background-color: #eeabc3d1;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.photos_parent{
+    /* display: grid; */
+    grid-column: 2;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera-p-tag{
+    font-size: 3vw;
+    text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+.photo_link{
+    text-decoration: none;
+    color: #EEEBD3;
+
+}
+
+  /* Smartphone */
+  @media screen and (max-width: 767px) {
+
+    .div_section_four{
+        grid-row: 4;
+        min-height: 350px;
+        background-color: #eeabc3d1;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10 40% 50%;
+        margin-top: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        border-radius: 10px;
+    }
+
+    .photos_parent{
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;
+        grid-template-columns: 15% 70% 15%;
+        margin-top: .5em;
+        margin-bottom: 1.5em;
+    }
+
+    .camera-p-tag{
+        font-size: 2.5vh;
+        text-shadow: -1px -1px 0 #E15A97, 1px -1px 0 #E15A97, -1px 1px 0 #E15A97, 1px 1px 0 #E15A97;
+        font-family: 'Kalam', cursive;
+        text-align: center;
+    }
+
+    .photo_link{
+        grid-column: 2;
+        text-decoration: none;
+        color: #EEEBD3;
+
+    }
+
+}
