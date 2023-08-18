@@ -1,7 +1,8 @@
 .div_section_one{
-    grid-row: 1;
+    grid-row: 2;
     min-height: 500px;
     background-color: #eeabc3d1;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 60% 40%;
 }
@@ -157,7 +158,7 @@
   @media screen and (max-width: 767px) {
 
     .div_section_one{
-        grid-row: 1;
+        grid-row: 2;
         min-height: 500px;
         background-color: #eeabc3d1;
         display: grid;

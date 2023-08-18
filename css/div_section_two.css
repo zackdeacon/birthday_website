@@ -1,6 +1,6 @@
 .div_section_two{
     margin-top: 50px;
-    grid-row: 2;
+    grid-row: 3;
     min-height: 500px;
     background-color: #eeabc3d1;
     display: grid;
@@ -113,7 +113,7 @@
   @media screen and (max-width: 767px) {
 
     .div_section_two{
-        grid-row: 2;
+        grid-row: 3;
         min-height: 500px;
         background-color: #eeabc3d1;
         display: grid;

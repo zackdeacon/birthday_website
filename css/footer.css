@@ -1,5 +1,5 @@
 .footer{
-    grid-row: 5;
+    grid-row: 7;
     min-height: 50px;
     background-color: #EEABC4;
     margin-top: 50px;
@@ -18,7 +18,7 @@
   /* Smartphone */
   @media screen and (max-width: 767px) {
     .footer{
-        grid-row: 5;
+        grid-row: 7;
         min-height: 50px;
         background-color: #EEABC4;
         margin-top: .5em;

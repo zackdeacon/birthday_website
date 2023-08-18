@@ -1,17 +1,17 @@
-.div_section_three{
+.div_section_monday{
     margin-top: 50px;
-    grid-row: 4;
+    grid-row: 5;
     min-height: 500px;
     background-color: #eeabc3d1;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 40% 60%;
 }
 
   /* Smartphone */
   @media screen and (max-width: 767px) {
 
-    .div_section_three{
-        grid-row: 4;
+    .div_section_monday{
+        grid-row: 5;
         min-height: 500px;
         background-color: #eeabc3d1;
         display: grid;
